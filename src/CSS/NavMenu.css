@@ -1,0 +1,12 @@
+.main-nav {
+    text-align: center;
+    background-color: #9ec4e2;
+}
+.main-nav ul {
+    margin:0;
+    padding:20px
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 15px;
+}

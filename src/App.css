@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.main-header {
+  display:flex;
+  align-items: center;
+  place-content: space-between;
+  padding: 0 20px;
+  background-color: #ededed;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color:#eeeeee;
+}
+
+main{
+  margin-right:25%;
+  float: left;
+  padding:20px;
+  height:100%;
+}
+
+aside{
+  width: 25%;
+  right: 0px ;
+  position: absolute;
+  height:100%;
+}

@@ -1,0 +1,10 @@
+.content{
+    margin:20px;
+    display: flex;
+    background-color: white;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.content > * {
+    margin:20px;
+}
