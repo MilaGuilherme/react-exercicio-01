@@ -1,0 +1,23 @@
+.tabs {
+    display: flex;
+    list-style: none;
+    padding:0;
+    margin:0;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.tabs > li > button{
+    padding:10px;
+    border-radius: 0;
+    border-style: none;
+    background-color: white;
+}
+
+
+.tabs > li > button:hover{
+    background-color:#9ec4e2;
+}

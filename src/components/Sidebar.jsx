@@ -5,7 +5,7 @@ export const Sidebar = (props) => (
     <div className="sidebar">
         <ul>
             {props.sections.map(item => (
-                <li>
+                <li key={item.title}>
                     <a href={item.link} rel="noreferrer" target="_blank">{item.title}</a>
                 </li>
             ))}
